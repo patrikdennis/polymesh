@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  #myCanvas {
+    border: 1px solid #555;
+    cursor: crosshair;
+    margin: 10px auto;
+    display: block;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    cursor: pointer;
+    background: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+  

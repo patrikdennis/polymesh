@@ -1,0 +1,14 @@
+{% extends 'meshapp/base.html' %}
+{% load static %}
+
+{% block content %}
+    <p>Click on the canvas to define polygon vertices. When finished, press "Finish Polygon".</p>
+
+    <canvas id="myCanvas" width="800" height="600"></canvas>
+    <br/>
+    <button id="finishBtn">Finish Polygon</button>
+    <button id="clearBtn">Clear Canvas</button>
+
+    <!-- CSRF Token (for Django requests) -->
+    <input type="hidden" id="csrf_token" value="{{ csrf_token }}">
+{% endblock %}
