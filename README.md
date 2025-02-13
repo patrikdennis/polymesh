@@ -3,6 +3,7 @@
 ## 🛠️ Setup Instructions
 
 ### 1 Clone the Repository
+
 ```bash
 git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
 cd polymesh
@@ -10,7 +11,7 @@ cd polymesh
 
 ### 2 Create a Virtual Environment
 
-Mac & Linux
+Mac/linux
 ```bash
 git clone https://github.com/YOUR_USERNAME/polymesh.git
 cd polymesh
@@ -25,17 +26,19 @@ venv\Scripts\activate
 
 
 ### 3 Install Dependencies
+Mac/linux
 ```bash
 pip install -r requirements.txt
 ```
 
 
 ### 4 Create a .env File
+Mac/linux
 ```bash
 touch .env
 ```
 
-
+Windows
 ```powershell
 New-Item -Path . -Name ".env" -ItemType "file"
 ```
