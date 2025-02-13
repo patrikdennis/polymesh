@@ -1,9 +1,14 @@
 from pathlib import Path
 import os
+from dotenv import load_dotenv
+
+
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-# ✅ Ensure SECRET_KEY is set
+#  Ensure SECRET_KEY is set
+# Load environment variables from .env file
+load_dotenv()
 SECRET_KEY = os.environ.get("DJANGO_SECRET_KEY")
 
 if not SECRET_KEY:
@@ -11,7 +16,7 @@ if not SECRET_KEY:
 
 DEBUG = True  # Keep this True for local development
 
-# ✅ Allow localhost for development
+# Allow localhost for development
 ALLOWED_HOSTS = ["127.0.0.1", "localhost"]
 
 # Application definition
@@ -55,7 +60,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = "polymesh.wsgi.application"
 
-# ✅ Use SQLite for local development
+# Use SQLite for local development
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.sqlite3",
@@ -75,6 +80,6 @@ TIME_ZONE = "UTC"
 USE_I18N = True
 USE_TZ = True
 
-# ✅ Static file handling
+# Static file handling
 STATIC_URL = "/static/"
 STATICFILES_DIRS = [os.path.join(BASE_DIR, "meshapp/static")]
