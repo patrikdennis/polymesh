@@ -6,6 +6,7 @@
 ```bash
 git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
 cd polymesh
+```
 
 ### 2 Create a Virtual Environment
 
@@ -13,26 +14,31 @@ Mac & Linux
 ```bash
 git clone https://github.com/YOUR_USERNAME/polymesh.git
 cd polymesh
+```
 
 
 Windows
 ```powershell
 python -m venv venv
 venv\Scripts\activate
+```
 
 
 ### 3 Install Dependencies
 ```bash
 pip install -r requirements.txt
+```
 
 
 ### 4 Create a .env File
 ```bash
 touch .env
+```
 
 
 ```powershell
 New-Item -Path . -Name ".env" -ItemType "file"
+```
 
 
 Then open .env and add:
