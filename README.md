@@ -5,20 +5,13 @@
 ### 1 Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
+git clone https://github.com/patrikdennis/polymesh.git
 cd polymesh
 ```
 
 ### 2 Create a Virtual Environment
 
-Mac/linux
-```bash
-git clone https://github.com/YOUR_USERNAME/polymesh.git
-cd polymesh
-```
-
-
-Windows
+Mac/linux & Windows
 ```powershell
 python -m venv venv
 venv\Scripts\activate
