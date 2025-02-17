@@ -42,4 +42,12 @@ Then open .env and add:
 DJANGO_SECRET_KEY=your-secret-key
 DJANGO_DEBUG=True
 DJANGO_ALLOWED_HOSTS=127.0.0.1,localhost
+```
+
+## 🚀 To run
+```bash
+python3 manage.py runserver
+```
+
+Finally copy and paste the development server domain.
 
