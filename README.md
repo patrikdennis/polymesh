@@ -14,7 +14,7 @@ cd polymesh
 Mac/linux & Windows
 ```powershell
 python -m venv venv
-venv\Scripts\activate
+activate venv
 ```
 
 
