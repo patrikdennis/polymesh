@@ -44,7 +44,7 @@ DJANGO_DEBUG=True
 DJANGO_ALLOWED_HOSTS=127.0.0.1,localhost
 ```
 
-## 🚀 To run
+## Run
 ```bash
 python3 manage.py runserver
 ```
